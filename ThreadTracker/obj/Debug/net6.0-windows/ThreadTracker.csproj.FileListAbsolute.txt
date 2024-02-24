@@ -1,0 +1,16 @@
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\bin\Debug\net6.0-windows\ThreadTracker.exe
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\bin\Debug\net6.0-windows\ThreadTracker.deps.json
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\bin\Debug\net6.0-windows\ThreadTracker.runtimeconfig.json
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\bin\Debug\net6.0-windows\ThreadTracker.dll
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\bin\Debug\net6.0-windows\ThreadTracker.pdb
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\ThreadTracker.Form1.resources
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\ThreadTracker.csproj.GenerateResource.cache
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\ThreadTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\ThreadTracker.AssemblyInfoInputs.cache
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\ThreadTracker.AssemblyInfo.cs
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\ThreadTracker.csproj.CoreCompileInputs.cache
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\ThreadTracker.dll
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\refint\ThreadTracker.dll
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\ThreadTracker.pdb
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\ThreadTracker.genruntimeconfig.cache
+C:\Users\Huseyn\source\repos\ThreadTracker\ThreadTracker\obj\Debug\net6.0-windows\ref\ThreadTracker.dll
