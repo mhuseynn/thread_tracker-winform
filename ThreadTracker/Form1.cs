@@ -6,14 +6,15 @@ namespace ThreadTracker
         public Semaphore Semaphore { get; set; }
 
         public List<Thread> threads { get; set; }
-
+        public int count { get; set; }
 
         public Form1()
         {
             InitializeComponent();
             threads = new List<Thread>();
+            count = 3;
             Semaphore = new Semaphore(3, 3, "semaphore");
-            
+
         }
 
         //Dispatcher ucun  funksiya winformda hazir yoxdur
@@ -70,10 +71,14 @@ namespace ThreadTracker
                         if (th.Name == listViewItem.Text)
                         {
                             workinglist.Items.Remove(listViewItem);
+                            if (workinglist.Items.Count == 0)
+                                counter.Enabled = true;
                             break;
                         }
                     }
                 });
+
+
             });
 
             thread.Name = "Thread" + thread.ManagedThreadId;
@@ -104,8 +109,18 @@ namespace ThreadTracker
 
         private void counter_ValueChanged(object sender, EventArgs e)
         {
-            Semaphore.Dispose();
-            Semaphore = new Semaphore((int)counter.Value, (int)counter.Value, "Semaphore");
+            if (workinglist.Items.Count == 0)
+            {
+                Semaphore.Dispose();
+                count = (int)counter.Value;
+                Semaphore = new Semaphore((int)counter.Value, (int)counter.Value, "Semaphore");
+            }
+            else
+            {
+                counter.Value = count;
+                counter.Enabled = false;
+            }
+
         }
     }
 }

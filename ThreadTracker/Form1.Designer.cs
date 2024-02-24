@@ -111,6 +111,7 @@
             counter.Name = "counter";
             counter.Size = new Size(150, 27);
             counter.TabIndex = 8;
+            counter.Value = new decimal(new int[] { 3, 0, 0, 0 });
             counter.ValueChanged += counter_ValueChanged;
             // 
             // label4
